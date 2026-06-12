@@ -1,0 +1,4 @@
+/pdf_cards/*
+/html_cards/*
+photos/*
+!photos/logo/

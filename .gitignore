@@ -2,3 +2,4 @@
 /html_cards/*
 photos/*
 !photos/logo/
+*.xlsx

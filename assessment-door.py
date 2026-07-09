@@ -6,7 +6,7 @@ from pathlib import Path
 template = Path("historic_door_registration_card_template.html").read_text(encoding="utf-8")
 
 # La fila de encabezados reales está en la fila 5 (índice 4)
-df = pd.read_excel("WLA_B13DoorsAssessment.xlsx", sheet_name="Door", header=4)
+df = pd.read_excel("assessment-door.xlsx", sheet_name="Door", header=4)
 
 # Carpeta raíz de fotos:  photos/<Door ID>/foto1.jpg, foto2.jpg …
 PHOTOS_DIR = Path("photos")
